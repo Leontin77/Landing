@@ -1,0 +1,31 @@
+/* Figma Styles of your File */:root {
+  /* Colors */
+  --orange: #ff7900;
+  --black: #000000;
+  --for-h-4: #443e3e;
+  --white: #ffffff;
+  --for-h-4-onblack: #cccccc;
+  --background: #f4f4f4;
+
+  /* Fonts */
+  --untitled-forbutton: 600 20px 'Inter', sans-serif;
+  --untitled-fornumbers: 600 36px 'Inter', sans-serif;
+  --untitled-h-4: 400 14px 'Inter', sans-serif;
+  --untitled-h-3: 400 18px 'Inter', sans-serif;
+  --untitled-h-2: 600 20px 'Inter', sans-serif;
+  --untitled-h-1-semibold: 600 22px 'Inter', sans-serif;
+  --untitled-h-1-regular: 400 22px 'Inter', sans-serif;
+  --_1920-forbutton: 600 20px 'Inter', sans-serif;
+  --_1920-fornumbers: 600 58px 'Inter', sans-serif;
+  --_1920-h-5: 400 16px 'Inter', sans-serif;
+  --_1920-h-4: 400 20px 'Inter', sans-serif;
+  --_1920-h-3: 400 24px 'Inter', sans-serif;
+  --_1920-h-2: 500 30px 'Inter', sans-serif;
+  --_1920-1-semibold: 600 36px 'Inter', sans-serif;
+  --_1920-1-regular: 400 36px 'Inter', sans-serif;
+
+  /* Effects */
+  --dropshadow-360-box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.90);
+  --dropshadow-1920-box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.90);
+}
+

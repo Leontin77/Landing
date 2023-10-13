@@ -1,0 +1,1258 @@
+.landing,
+.landing * {
+  box-sizing: border-box;
+}
+.landing {
+  background: var(--white, #ffffff);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+}
+.landing__header {
+  background: var(--black, #000000);
+  padding: 20px 200px 20px 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.landing__logo-orange {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.landing___1-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 996px;
+  position: absolute;
+  left: 462px;
+  top: 321px;
+}
+.landing__orange-polska-otworzy-a-now-mo-liwo-inwestowania-i-otrzymywania-cz-ci-przychod-w-firmy-bezpo-rednio-na-kart {
+  color: var(--black, #000000);
+  text-align: center;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__frame-1 {
+  padding: 10px 130px 10px 130px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__minimalna-wysoko-zarobk-w-z-pakietem-pi-ciu-akcji-orange-polska-to-ju-od-10-000-z-miesi-cznie {
+  color: var(--for-h-4, #443e3e);
+  text-align: center;
+  font: var(--_1920-h-3, 400 24px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing___2-screen {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1520px;
+  position: absolute;
+  left: 200px;
+  top: 691px;
+}
+.landing__video {
+  flex-shrink: 0;
+  width: 866px;
+  height: 514px;
+  position: static;
+}
+.landing__rectangle {
+  border-radius: 10px;
+  width: 866px;
+  height: 514px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.landing__player {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 30px;
+  top: 451px;
+}
+.landing__frame-42 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__play {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.landing___0-00-12-34 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__group-13 {
+  flex-shrink: 0;
+  width: 806px;
+  height: 3px;
+  position: static;
+}
+.landing__rectangle-19 {
+  background: #b0b0b5;
+  border-radius: 5px;
+  width: 806px;
+  height: 3px;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+.landing__rectangle-20 {
+  background: var(--grey-2, #eeeeee);
+  border-radius: 5px;
+  width: 200px;
+  height: 3px;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+.landing__frame-12 {
+  background: var(--background, #f4f4f4);
+  border-radius: 10px;
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.landing__pakiet-pi-ciu-akcji-orange-polska {
+  color: var(--black, #000000);
+  text-align: center;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.landing__checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing___1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 130px;
+  position: relative;
+}
+.landing__group-1 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.landing___1-000-z {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 130px;
+  position: relative;
+}
+.landing__group-2 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: static;
+}
+.landing__rectangle-162 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 1px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.landing___2-000-z {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 130px;
+  position: relative;
+}
+.landing__group-3 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: static;
+}
+.landing___3-000-z {
+  color: #443e3e;
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___10-000-z-zysku-miesi-cznie {
+  text-align: center;
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-10-000-z-zysku-miesi-cznie-span {
+  color: #ff7900;
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+}
+.landing-10-000-z-zysku-miesi-cznie-span2 {
+  color: var(--black, #000000);
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+}
+.landing__button {
+  background: var(--orange, #ff7900);
+  border-radius: 5px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 250px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+}
+.landing__kup-teraz {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: var(--_1920-forbutton, 600 20px "Inter", sans-serif);
+  position: relative;
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing___3-screen {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 1px;
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 1520px;
+  position: absolute;
+  left: 200px;
+  top: 1355px;
+}
+.landing___52-394 {
+  color: #ff7900;
+  text-align: center;
+  font: var(--_1920-fornumbers, 600 58px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__zwyk-ych-polak-w-ju-zarobi-o {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-1-regular, 400 36px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___4-screen {
+  background: var(--black, #000000);
+  padding: 150px 244px 150px 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1920px;
+  position: absolute;
+  left: 0px;
+  top: 1635px;
+}
+.landing__jaki-jest-nasz-sekret {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__frame {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__icon-1 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.landing__ellipse-4 {
+  background: var(--orange, #ff7900);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 172px;
+  top: 0px;
+}
+.landing__icon2 {
+  position: absolute;
+  left: 192px;
+  top: 20px;
+  overflow: visible;
+}
+.landing__op-acalno-zakupu-pakietu-pi-ciu-akcji-orange-polska-gwarantuje-rz-d {
+  color: var(--for-h-4-onblack, #cccccc);
+  text-align: center;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__frame-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__icon-2 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.landing__icon3 {
+  position: absolute;
+  left: 192px;
+  top: 20px;
+  overflow: visible;
+}
+.landing__wsp-praca-ze-wszystkimi-bankami-w-polsce-zapewnia-szybkie-wyp-aty-bez-prowizji {
+  color: var(--for-h-4-onblack, #cccccc);
+  text-align: center;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__frame-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__icon-3 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.landing__icon-32 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 192px;
+  top: 20px;
+  overflow: hidden;
+}
+.landing__group-21 {
+  position: absolute;
+  left: 8.25px;
+  top: 20.25px;
+  overflow: visible;
+}
+.landing__vector-22-stroke {
+  position: absolute;
+  left: 8.25px;
+  top: 7.25px;
+  overflow: visible;
+}
+.landing__szybki-wzrost-akcji-orange-polska-z-ka-dym-dniem-zwi-ksza-dochody-wszystkich-inwestor-w {
+  color: var(--for-h-4-onblack, #cccccc);
+  text-align: center;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing___5-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 200px;
+  top: 2431px;
+}
+.landing__frame-28 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__frame-l {
+  background: var(--background, #f4f4f4);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 735px;
+  position: relative;
+}
+.landing__dlaczego-inwestycja-w-orange-polska-jest-tak-op-acalna {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___12 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__icon-12 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing__ellipse-5 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 1px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.landing__frame-24 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  overflow: hidden;
+}
+.landing__vector-23-stroke {
+  position: absolute;
+  left: 0.5px;
+  top: 17.53px;
+  overflow: visible;
+}
+.landing__group-22 {
+  position: absolute;
+  left: 7px;
+  top: 1px;
+  overflow: visible;
+}
+.landing__bo-redni-zysk-klienta-z-minimaln-kwot-wp-aty-to-ju-od-10-000-z-miesi-cznie {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___22 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__icon-22 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing__frame-26 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  overflow: visible;
+}
+.landing__bo-globalna-firma-zapewnia-bezpiecze-stwo-i-eliminuje-wszelkie-ryzyka {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing___32 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__icon-33 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing__frame-282 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  overflow: visible;
+}
+.landing__bo-wysokie-technologie-zapewniaj-szybkie-p-atno-ci-na-kart-dowolnego-banku-w-polsce {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__frame-r {
+  background: var(--background, #f4f4f4);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 735px;
+  position: relative;
+}
+.landing__je-li-chcesz-zacz-zarabia-w-orange-polska-musisz {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing___13 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing___14 {
+  color: var(--orange, #ff7900);
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__kupi-pakiet-startowy-pi-ciu-akcji-klikaj-c-przycisk-kup-teraz {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing___23 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing___24 {
+  color: var(--orange, #ff7900);
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__wype-ni-formularz-i-potwierdzi-rejestracj-odpowiadaj-c-na-wezwanie-naszego-eksperta-finansowego {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing___33 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: static;
+}
+.landing___34 {
+  color: var(--orange, #ff7900);
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__wp-aci-minimaln-kwot-inwestycji-na-swoje-konto-i-natychmiast-obserwowa-wynik {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__button-2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 2px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 250px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+}
+.landing__obejrzyj-wideo {
+  color: var(--black, #000000);
+  text-align: center;
+  font: var(--_1920-forbutton, 600 20px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing___6-screen {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1520px;
+  position: absolute;
+  left: 200px;
+  top: 3149px;
+}
+.landing__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__julien-ducarroz {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__prezes-zarz-du-orange-polska {
+  color: var(--orange, #ff7900);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__zaktualizowali-my-platform-inwestycyjn-orange-polska-i-oficjalnie-udost-pnili-my-produkt-dla-wszystkich-mieszka-c-w-polski-chcemy-aby-inwestycje-by-y-przejrzyste-u-yteczne-proste-i-atwe-w-obs-udze-od-wielu-lat-dzia-amy-na-globalnym-i-lokalnym-rynku-nowoczesnych-technologii-pomagamy-zarabia-dzi-ki-naszemu-nowemu-produktowi-inwestycyjnemu {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__photo {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+  flex: 1;
+  height: 454px;
+  position: relative;
+}
+.landing___7-screen {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 200px;
+  top: 3753px;
+}
+.landing__text-block2 {
+  background: linear-gradient(to left, #f4f4f4, #f4f4f4);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 997px;
+  height: 553px;
+  position: relative;
+}
+.landing__text-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__pami-taj-e-akcje-orange-polska-stale-rosn {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__akcje-orange-polska-stale-rosn-od-2011-roku-dzi-ki-stabilnemu-wzrostowi-liczby-klient-w {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__rectangle-31 {
+  background: var(--for-h-4-onblack, #cccccc);
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 1px;
+  position: relative;
+}
+.landing__text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__najbardziej-przyst-pny-spos-b-na-zarabianie-pieni-dzy-na-wiecie {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__atwiej-si-nie-da-zesp-orange-polska-zadba-o-nowych-klient-w-firmy-i-umo-liwia-czerpanie-atwych-comiesi-cznych-zysk-w {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__form {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 473px;
+  position: relative;
+  box-shadow: var(
+    --dropshadow-1920-box-shadow,
+    0px 0px 30px 0px rgba(0, 0, 0, 0.9)
+  );
+}
+.landing__zarejestruj-si-aby-zacz-zarabia {
+  color: var(--black, #000000);
+  text-align: center;
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing___15 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.landing__frame-41 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--for-h-4-onblack, #cccccc);
+  border-width: 1px;
+  padding: 13px 20px 13px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 373px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.landing__nazwa {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__button-3 {
+  background: var(--orange, #ff7900);
+  border-radius: 5px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+}
+.landing__zarejestruj-si-teraz {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: var(--_1920-forbutton, 600 20px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing___8-screen {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 200px;
+  top: 4456px;
+}
+.landing__response-1 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--for-h-4-onblack, #cccccc);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 473px;
+  height: 436px;
+  position: relative;
+}
+.landing__frame-38 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__ellipse-6 {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.landing__frame-37 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.landing__petr {
+  color: var(--black, #000000);
+  text-align: left;
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__trucker {
+  color: var(--orange, #ff7900);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__mam-43-lata-mam-wszystko-czego-pragn-am-i-odkrywam-dla-siebie-nowe-mo-liwo-ci-jaki-jest-m-j-sekret-kupi-em-pakiet-akcji-orange-polska-i-co-miesi-c-zarabiam-od-40-000-z {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__footer {
+  background: var(--black, #000000);
+  padding: 50px 200px 50px 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1920px;
+  position: absolute;
+  left: 0px;
+  top: 5042px;
+}
+.landing__all-rights-reserved {
+  color: var(--for-h-4-onblack, #cccccc);
+  text-align: left;
+  font: var(--_1920-h-5, 400 16px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__logo-orange2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.landing__browser {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+}
+.landing__image-1 {
+  width: 1920px;
+  height: 71px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.landing__rectangle-4 {
+  background: var(--white, #ffffff);
+  width: 98px;
+  height: 22px;
+  position: absolute;
+  left: 18px;
+  top: 6px;
+}
+.landing__rectangle-5 {
+  background: linear-gradient(to left, #f1f3f4, #f1f3f4),
+    linear-gradient(to left, #ffffff, #ffffff);
+  width: 205px;
+  height: 22px;
+  position: absolute;
+  left: 138px;
+  top: 41px;
+}
+.landing__domain {
+  color: #3c4043;
+  text-align: left;
+  font: 400 14px "SF Pro Text", sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 8px;
+  width: 81px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__domain2 {
+  color: #3c4043;
+  text-align: left;
+  font: 400 14px "SF Pro Text", sans-serif;
+  position: absolute;
+  left: 142px;
+  top: 44px;
+  width: 81px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__start-panel {
+  width: 1920px;
+  height: 39px;
+  position: sticky;
+  left: calc(50% - 960px);
+  bottom: 0px;
+}

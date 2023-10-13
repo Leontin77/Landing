@@ -1,0 +1,36 @@
+.one,
+.one * {
+  box-sizing: border-box;
+}
+.one {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.one__frame-41 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--for-h-4-onblack, #cccccc);
+  border-width: 1px;
+  padding: 13px 20px 13px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 373px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.one__nazwa {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
