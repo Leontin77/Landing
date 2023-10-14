@@ -5,10 +5,19 @@ import { Button2 } from "../Button2/Button2";
 import { One } from "../One/One";
 import { Response1 } from "../Response1/Response1";
 import HeaderSvg from 'images/header.svg';
+import men from 'images/blond.png';
+import petr from 'images/petr.png';
+import vova from 'images/vova.png';
+import tanya from 'images/Tanya.png';
+import {Form} from "Form/Form";
+import {useState} from "react";
 
 export interface ILandingProps {}
 
 export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
+  const [openForm, setOpenForm] = useState(false);
+
+
   return (
     <div className="landing">
       <div className="landing__header">
@@ -29,36 +38,6 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
       <div className="landing___2-screen">
         <div className="landing__video">
           <img className="landing__rectangle" src="rectangle.png" />
-          <div className="landing__player">
-            <div className="landing__frame-42">
-              <svg
-                className="landing__play"
-                width="15"
-                height="15"
-                viewBox="0 0 15 15"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clipPath="url(#clip0_23_43)">
-                  <path
-                    d="M13 7.5L4 15L4 -3.93402e-07L13 7.5Z"
-                    fill="#EEEEEE"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_23_43">
-                    <rect width="15" height="15" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-
-              <div className="landing___0-00-12-34">0:00 / 12:34 </div>
-            </div>
-            <div className="landing__group-13">
-              <div className="landing__rectangle-19"></div>
-              <div className="landing__rectangle-20"></div>
-            </div>
-          </div>
         </div>
         <div className="landing__frame-12">
           <div className="landing__pakiet-pi-ciu-akcji-orange-polska">
@@ -355,14 +334,14 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="landing___5-screen">
-        <div className="landing__frame-28">
-          <div className="landing__frame-l">
-            <div className="landing__dlaczego-inwestycja-w-orange-polska-jest-tak-op-acalna">
-              Dlaczego inwestycja w Orange Polska jest tak opłacalna?{" "}
+      <div className="landing___steps-block">
+        <div className="landing___steps-block-cards">
+          <div className="landing___steps-block-cards-item left">
+            <div className="landing___steps-block-cards-item-header">
+              Почему инвестиция в Olerex такая выгодная?{" "}
             </div>
-            <div className="landing___12">
-              <div className="landing__icon-12">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
                 <div className="landing__frame-24">
                   <svg
@@ -412,13 +391,12 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                   </svg>
                 </div>
               </div>
-              <div className="landing__bo-redni-zysk-klienta-z-minimaln-kwot-wp-aty-to-ju-od-10-000-z-miesi-cznie">
-                Bo średni zysk klienta z minimalną kwotą wpłaty to już od 10 000
-                zł miesięcznie{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                Потому-что средняя прибыль клиента при минимальной сумме депозита составляет от 1950 евро ежемесячно{" "}
               </div>
             </div>
-            <div className="landing___22">
-              <div className="landing__icon-22">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
                 <svg
                   className="landing__frame-26"
@@ -442,13 +420,12 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                   />
                 </svg>
               </div>
-              <div className="landing__bo-globalna-firma-zapewnia-bezpiecze-stwo-i-eliminuje-wszelkie-ryzyka">
-                Bo globalna firma zapewnia bezpieczeństwo i eliminuje wszelkie
-                ryzyka{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                Потому-что мировая компания обеспечивает безопасность и убирает все риски.{" "}
               </div>
             </div>
-            <div className="landing___32">
-              <div className="landing__icon-33">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
                 <svg
                   className="landing__frame-282"
@@ -467,143 +444,135 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                   <path d="M2 9.21436H29V11.7858H2V9.21436Z" fill="#FF7900" />
                 </svg>
               </div>
-              <div className="landing__bo-wysokie-technologie-zapewniaj-szybkie-p-atno-ci-na-kart-dowolnego-banku-w-polsce">
-                Bo wysokie technologie zapewniają szybkie płatności na kartę
-                dowolnego banku w Polsce{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                Потому-что высокие технологии обеспечивают быстрые выплаты на карту любого банка Прибалтики.{" "}
               </div>
             </div>
           </div>
-          <div className="landing__frame-r">
-            <div className="landing__je-li-chcesz-zacz-zarabia-w-orange-polska-musisz">
-              Jeśli chcesz zacząć zarabiać w Orange Polska, musisz:{" "}
+          <div className="landing___steps-block-cards-item right">
+            <div className="landing___steps-block-cards-item-header">
+              Если ты хочешь начать зарабатывать вместе с Olerex тебе нужно:{" "}
             </div>
-            <div className="landing__frame-4">
-              <div className="landing___13">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
                 <div className="landing___14">1 </div>
               </div>
-              <div className="landing__kupi-pakiet-startowy-pi-ciu-akcji-klikaj-c-przycisk-kup-teraz">
-                Kupić pakiet startowy pięciu akcji, klikając przycisk Kup teraz!{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                <span> Купить стартовый пакет из трех акций нажав на кнопку </span>
+               <span onClick={() => setOpenForm(true)} className="buy">Купить сейчас!</span>
               </div>
             </div>
-            <div className="landing__frame-5">
-              <div className="landing___23">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
-                <div className="landing___24">2 </div>
+                <div className="landing___14">2 </div>
               </div>
-              <div className="landing__wype-ni-formularz-i-potwierdzi-rejestracj-odpowiadaj-c-na-wezwanie-naszego-eksperta-finansowego">
-                Wypełnić formularz i potwierdzić rejestrację odpowiadając na
-                wezwanie naszego eksperta finansowego{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                Заполнить форму и подтвердить регистрацию ответив на звонок от нашего финансового эксперта{" "}
               </div>
             </div>
-            <div className="landing__frame-6">
-              <div className="landing___33">
+            <div className="landing___steps-block-cards-item-row">
+              <div className="landing___steps-block-cards-item-row-icon">
                 <div className="landing__ellipse-5"></div>
-                <div className="landing___34">3 </div>
+                <div className="landing___14">3 </div>
               </div>
-              <div className="landing__wp-aci-minimaln-kwot-inwestycji-na-swoje-konto-i-natychmiast-obserwowa-wynik">
-                Wpłacić minimalną kwotę inwestycji na swoje konto i natychmiast
-                obserwować wynik{" "}
+              <div className="landing___steps-block-cards-item-row-text">
+                Внести на свой счет минимальную сумму инвестиции и сразу наблюдать за результатом.{" "}
               </div>
             </div>
           </div>
         </div>
-        <div className="landing__buttons">
-          <div className="landing__button-2">
-            <div className="landing__obejrzyj-wideo">Obejrzyj wideo! </div>
-          </div>
-          <Button />
+        <div className="landing___steps-block-buttons">
+          <Button2 />
+          <Button onClick={() => setOpenForm(true)} />
         </div>
       </div>
-      <div className="landing___6-screen">
-        <div className="landing__text-block">
-          <div className="landing__text">
-            <div className="landing__julien-ducarroz">Julien Ducarroz </div>
-            <div className="landing__prezes-zarz-du-orange-polska">
-              Prezes Zarządu Orange Polska{" "}
+      <div className="landing___man">
+        <div className="landing___man-info">
+          <div className="landing___man-info-block">
+            <div className="landing___man-info-block-header">Пирет Миллер </div>
+            <div className="landing___man-info-block-title">
+               Глава Olerex{" "}
             </div>
-            <div className="landing__zaktualizowali-my-platform-inwestycyjn-orange-polska-i-oficjalnie-udost-pnili-my-produkt-dla-wszystkich-mieszka-c-w-polski-chcemy-aby-inwestycje-by-y-przejrzyste-u-yteczne-proste-i-atwe-w-obs-udze-od-wielu-lat-dzia-amy-na-globalnym-i-lokalnym-rynku-nowoczesnych-technologii-pomagamy-zarabia-dzi-ki-naszemu-nowemu-produktowi-inwestycyjnemu">
-              Zaktualizowaliśmy platformę inwestycyjną Orange Polska i
-              oficjalnie udostępniliśmy produkt dla wszystkich mieszkańców
-              Polski!
+            <div className="landing___man-info-block-info">
+              Мы обновили инвестиционную платформу Olerex и официально выпустили продукт!
               <br />
               <br />
-              Chcemy, aby inwestycje były przejrzyste, użyteczne, proste i łatwe
-              w obsłudze.
+              Наша цель — демократизировать цифровую революцию. Мы хотим, чтобы инвестиции были понятными, полезными, простыми и удобными в использовании.
               <br />
               <br />
-              Od wielu lat działamy na globalnym i lokalnym rynku nowoczesnych
-              technologii, pomagamy zarabiać dzięki naszemu nowemu produktowi
-              inwestycyjnemu.{" "}
+              Мы много лет работаем на мировом
+              и местном рынке современных технологий и помогаем зарабатывать с помощью нашего нового инвестиционного продукта.
+              {" "}
             </div>
           </div>
-          <div className="landing__buttons">
+          <div className="landing___man__buttons">
             <Button2 />
-            <Button />
+            <Button onClick={() => setOpenForm(true)} />
           </div>
         </div>
-        <img className="landing__photo" src="photo.png" />
+        <img className="landing___man-info-photo" src={men} />
       </div>
-      <div className="landing___7-screen">
-        <div className="landing__text-block2">
-          <div className="landing__text-1">
-            <div className="landing__pami-taj-e-akcje-orange-polska-stale-rosn">
-              Pamiętaj, że akcje Orange Polska stale rosną!{" "}
+      <div className="landing___block-form">
+        <div className="landing___block-form-items">
+          <div className="landing___block-form-items-one">
+            <div className="landing___block-form-items-one-header">
+              Помни что акции Olerex постоянно растут!{" "}
             </div>
-            <div className="landing__akcje-orange-polska-stale-rosn-od-2011-roku-dzi-ki-stabilnemu-wzrostowi-liczby-klient-w">
-              Akcje Orange Polska stale rosną od 2011 roku dzięki stabilnemu
-              wzrostowi liczby klientów.{" "}
+            <div className="landing___block-form-items-one-info">
+              Акции Olerex с 2016 года постоянно растут из-за стабильного роста клиентов.{" "}
             </div>
           </div>
-          <div className="landing__rectangle-31"></div>
-          <div className="landing__text-2">
-            <div className="landing__najbardziej-przyst-pny-spos-b-na-zarabianie-pieni-dzy-na-wiecie">
-              Najbardziej przystępny sposób na zarabianie pieniędzy na świecie!{" "}
+          <div className="landing___block-form-items-divider"></div>
+          <div className="landing___block-form-items-one">
+            <div className="landing___block-form-items-one-header">
+              Самый доступный способ заработка в мире!{" "}
             </div>
-            <div className="landing__atwiej-si-nie-da-zesp-orange-polska-zadba-o-nowych-klient-w-firmy-i-umo-liwia-czerpanie-atwych-comiesi-cznych-zysk-w">
-              Łatwiej się nie da. Zespół Orange Polska zadbał o nowych klientów
-              firmy i umożliwia czerpanie łatwych comiesięcznych zysków.{" "}
+            <div className="landing___block-form-items-one-info">
+              Легче и не могло быть. Команда Olerex позаботилась о новых клиентах компании и дает возможность забирать легкую ежемесячную прибыль.{" "}
             </div>
           </div>
         </div>
-        <div className="landing__form">
-          <div className="landing__zarejestruj-si-aby-zacz-zarabia">
-            Zarejestruj się, aby zacząć zarabiać!{" "}
-          </div>
-          <div className="landing__inputs">
-            <div className="landing___15">
-              <div className="landing__frame-41">
-                <div className="landing__nazwa">Nazwa </div>
-              </div>
-            </div>
-            <One />
-            <One />
-            <One />
-          </div>
-          <div className="landing__button-3">
-            <div className="landing__zarejestruj-si-teraz">
-              Zarejestruj się teraz!{" "}
-            </div>
-          </div>
-        </div>
+        <Form isPopUp={false}/>
       </div>
-      <div className="landing___8-screen">
-        <div className="landing__response-1">
-          <div className="landing__frame-38">
-            <img className="landing__ellipse-6" src="ellipse-6.png" />
-            <div className="landing__frame-37">
-              <div className="landing__petr">Petr </div>
-              <div className="landing__trucker">Trucker </div>
+      <div className="landing___winner-block">
+        <div className="landing___winner-block-one">
+          <div className="landing___winner-block-one-photo-row">
+            <img className="landing___winner-block-one-photo" src={petr} />
+            <div className="landing___winner-block-one-photo-row-info">
+              <div className="landing___winner-block-one-photo-row-info-name">Петр </div>
+              <div className="landing___winner-block-one-photo-row-info-who">Дальнобойщик </div>
             </div>
           </div>
-          <div className="landing__mam-43-lata-mam-wszystko-czego-pragn-am-i-odkrywam-dla-siebie-nowe-mo-liwo-ci-jaki-jest-m-j-sekret-kupi-em-pakiet-akcji-orange-polska-i-co-miesi-c-zarabiam-od-40-000-z">
-            Mam 43 lata, mam wszystko, czego pragnęłam i odkrywam dla siebie
-            nowe możliwości. Jaki jest mój sekret? Kupiłem pakiet akcji Orange
-            Polska i co miesiąc zarabiam od 40 000 zł.{" "}
+          <div className="landing___winner-block-one-about">
+            Мне 43 года, а я имею все что я хотел и открываю для себя новые возможности. В чем мой секрет? Я купил пакет акций в Olerex и зарабатываю от 8000 евро каждый месяц. {" "}
           </div>
         </div>
-        <Response1 />
-        <Response1 />
+        <div className="landing___winner-block-one">
+          <div className="landing___winner-block-one-photo-row">
+            <img className="landing___winner-block-one-photo" src={vova} />
+            <div className="landing___winner-block-one-photo-row-info">
+              <div className="landing___winner-block-one-photo-row-info-name">Марис </div>
+              <div className="landing___winner-block-one-photo-row-info-who"> Cпециалист по развитию сети </div>
+            </div>
+          </div>
+          <div className="landing___winner-block-one-about">
+            Легкие деньги с помощью инвестиций в Olerex. Их новый продукт просто Вау! Каждый месяц мне на карту приходит 7600 евро! За полгода я построил жизнь о которой мечтал. И продолжаю заниматься любимым делом.{" "}
+          </div>
+        </div>
+        <div className="landing___winner-block-one">
+          <div className="landing___winner-block-one-photo-row">
+            <img className="landing___winner-block-one-photo" src={tanya} />
+            <div className="landing___winner-block-one-photo-row-info">
+              <div className="landing___winner-block-one-photo-row-info-name">Наталья </div>
+              <div className="landing___winner-block-one-photo-row-info-who">Cотрудник по работе с персоналом </div>
+            </div>
+          </div>
+          <div className="landing___winner-block-one-about">
+            Я купила пакет акций по рекомендациям от друзей, честно говоря я не сильно разбиралась в этом поэтому относилась скептически. Но финансовые эксперты из Olerex все мне объяснили и помогли инвестировать. Сейчас я забираю от 5200 евро каждый месяц и живу роскошной жизнью.{" "}
+          </div>
+        </div>
       </div>
       <div className="landing__footer">
         <div className="landing__all-rights-reserved">
@@ -631,6 +600,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
           </defs>
         </svg>
       </div>
+      {openForm && <Form closeForm={() => setOpenForm(false)} isPopUp={true}/>}
     </div>
   );
 };

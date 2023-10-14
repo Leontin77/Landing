@@ -1,0 +1,130 @@
+.popUpForm {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  .landing__form {
+    background-color: white;
+  }
+  .close-button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+  }
+}
+.landing__form {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--orange, #ff7900);
+  border-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 473px;
+  position: relative;
+  box-shadow: var(
+                  --dropshadow-1920-box-shadow,
+                  0px 0px 30px 0px rgba(0, 0, 0, 0.9)
+  );
+}
+.landing__form-header {
+  color: var(--black, #000000);
+  text-align: center;
+  font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing__form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.landing__form-element {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-height: 60px;
+}
+.landing__form-input {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--for-h-4-onblack, #cccccc);
+  border-width: 1px;
+  padding: 13px 20px 13px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 373px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: var(--for-H4, #443E3E);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.landing__form-error {
+  color: red;
+  margin-top: 55px;
+}
+.landing__nazwa {
+  color: var(--for-h-4, #443e3e);
+  text-align: left;
+  font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing__form-button {
+  background: var(--orange, #ff7900);
+  border-radius: 5px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.03);
+    }
+}
+.landing__form-button-text {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: var(--_1920-forbutton, 600 20px "Inter", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

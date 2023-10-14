@@ -5,8 +5,8 @@ export interface IButton2Props {}
 
 export const Button2 = ({ ...props }: IButton2Props): JSX.Element => {
   return (
-    <div className="button-2">
-      <div className="button-2__obejrzyj-wideo">Obejrzyj wideo! </div>
+    <div className="button-2 hover">
+      <div className="button-2__obejrzyj-wideo"> Смотреть видео! </div>
     </div>
   );
 };

@@ -42,6 +42,10 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         use: [
             {
                 loader: 'file-loader',
+                options: {
+                    name: '[name].[hash].[ext]', // Optional: Rename the output file
+                    outputPath: 'images', // Optional: Specify the output directory for the images
+                },
             },
         ],
     };
