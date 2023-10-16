@@ -223,7 +223,7 @@
   .landing__rectangle-162 {
     border-radius: 5px;
     border-style: solid;
-    border-color: var(--orange, #ff7900);
+    border-color: var(--orange, #ffd600);
     border-width: 1px;
     width: 30px;
     height: 30px;
@@ -233,7 +233,7 @@
     cursor: pointer;
   }
   .checked{
-    background: #ff7900;
+    background: #ffd600;
   }
   .landing___2-000-z {
     color: var(--for-h-4, #443e3e);
@@ -281,7 +281,7 @@
     justify-content: center;
   }
   .landing-10-000-z-zysku-miesi-cznie-span {
-    color: #ff7900;
+    color: #ffd600;
     font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
   }
   .landing-10-000-z-zysku-miesi-cznie-span2 {
@@ -289,7 +289,7 @@
     font: var(--_1920-h-2, 500 30px "Inter", sans-serif);
   }
   .landing__button {
-    background: var(--orange, #ff7900);
+    background: var(--orange, #ffd600);
     border-radius: 5px;
     padding: 15px 30px 15px 30px;
     display: flex;
@@ -301,10 +301,10 @@
     width: 250px;
     height: 60px;
     position: relative;
-    box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+    box-shadow: 0px 0px 30px 0px rgb(159 135 9);
   }
   .landing__kup-teraz {
-    color: var(--white, #ffffff);
+    color: var(--black, #000000);
     text-align: center;
     font: var(--_1920-forbutton, 600 20px "Inter", sans-serif);
     position: relative;
@@ -319,7 +319,7 @@
   background: var(--white, #ffffff);
   border-radius: 10px;
   border-style: solid;
-  border-color: var(--orange, #ff7900);
+  border-color: var(--orange, #ffd600);
   border-width: 1px;
   padding: 30px 0px 30px 0px;
   display: flex;
@@ -329,7 +329,7 @@
   justify-content: center;
   margin-bottom: 150px;
   .landing___52-394 {
-    color: #ff7900;
+    color: #ffd600;
     text-align: center;
     font: var(--_1920-fornumbers, 600 58px "Inter", sans-serif);
     position: relative;
@@ -394,7 +394,7 @@
     position: relative;
   }
   .landing__ellipse-4 {
-    background: var(--orange, #ff7900);
+    background: var(--orange, #ffd600);
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -556,7 +556,7 @@
           .landing__ellipse-5 {
           border-radius: 50%;
           border-style: solid;
-          border-color: var(--orange, #ff7900);
+          border-color: var(--orange, #ffd600);
           border-width: 1px;
           width: 60px;
           height: 60px;
@@ -565,7 +565,7 @@
           top: 0px;
         }
           .landing___14 {
-            color: var(--orange, #FF7900);
+            color: var(--orange, #ffd600);
             text-align: center;
             font-family: Inter;
             font-size: 32px;
@@ -598,7 +598,7 @@
         flex: 1;
         .buy {
           display: inline-block;
-          color: var(--orange, #ff7900);
+          color: var(--orange, #ffd600);
           animation: text-link 1s linear infinite;
           cursor: pointer;
           &:hover {
@@ -630,7 +630,7 @@
     .landing__button-video {
       border-radius: 5px;
       border-style: solid;
-      border-color: var(--orange, #ff7900);
+      border-color: var(--orange, #ffd600);
       border-width: 2px;
       padding: 15px 30px 15px 30px;
       display: flex;
@@ -642,7 +642,7 @@
       width: 250px;
       height: 60px;
       position: relative;
-      box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+      box-shadow: 0px 0px 30px 0px rgb(159 135 9);
       span {
         color: var(--black, #000000);
         text-align: center;
@@ -696,7 +696,7 @@
         justify-content: flex-start;
       }
       .landing___man-info-block-title {
-        color: var(--orange, #ff7900);
+        color: var(--orange, #ffd600);
         text-align: left;
         font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
         position: relative;
@@ -864,7 +864,7 @@
     justify-content: flex-start;
   }
   .landing___winner-block-one-photo-row-info-who {
-    color: var(--orange, #ff7900);
+    color: var(--orange, #ffd600);
     text-align: left;
     font: var(--_1920-h-4, 400 20px "Inter", sans-serif);
     position: relative;

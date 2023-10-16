@@ -21,7 +21,7 @@
 .landing__form {
   border-radius: 10px;
   border-style: solid;
-  border-color: var(--orange, #ff7900);
+  border-color: var(--orange, #ffd600);
   border-width: 1px;
   padding: 50px;
   display: flex;
@@ -30,12 +30,20 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 473px;
+  width: 40%;
   position: relative;
+  height: max-content;
   box-shadow: var(
                   --dropshadow-1920-box-shadow,
                   0px 0px 30px 0px rgba(0, 0, 0, 0.9)
   );
+  transition: all 0.5s ease;
+  &.thankYou{
+    width: 75%;
+    transition: all 0.5s ease;
+    height: max-content;
+
+  }
 }
 .landing__form-header {
   color: var(--black, #000000);
@@ -46,13 +54,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: textOpacity 0.5s ease;
+  &.thankYou{
+  animation: textOpacity 2s ease;
+
+}
+}
+@keyframes textOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
 }
 .landing__form-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
@@ -72,9 +94,9 @@
   display: flex;
   flex-direction: row;
   gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 373px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -84,7 +106,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  .PhoneInputInput:focus-visible {
+    outline: none;
 }
+.PhoneInputInput{
+  color: var(--for-H4, #443E3E);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+}
+
 .landing__form-error {
   color: red;
   margin-top: 55px;
@@ -100,7 +134,7 @@
   justify-content: flex-start;
 }
 .landing__form-button {
-  background: var(--orange, #ff7900);
+  background: var(--orange, #ffd600);
   border-radius: 5px;
   padding: 15px 30px 15px 30px;
   display: flex;
@@ -112,7 +146,7 @@
   flex-shrink: 0;
   height: 60px;
   position: relative;
-  box-shadow: 0px 0px 30px 0px rgba(255, 121, 0, 0.7);
+  box-shadow: 0px 0px 30px 0px rgb(159 135 9);
     cursor: pointer;
     transition: all 0.3s;
     &:hover {
@@ -127,4 +161,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing__form {
+    width: 90%;
+    &.thankYou{
+      animation: textOpacity 2s ease;
+    width: 90%;
+    }
+    &-header{
+      font-size: 27px;
+    }
+  }
 }
