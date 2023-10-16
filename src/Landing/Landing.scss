@@ -29,15 +29,20 @@
   }
 }
 
+.landing-screens{
+  max-width: 1400px;
+  // width: 75%;
+}
+
 .landing___1-screen {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: flex-start;
-  width: 996px;
   margin-bottom: 140px;
-  .landing__orange-polska-otworzy-a-now-mo-liwo-inwestowania-i-otrzymywania-cz-ci-przychod-w-firmy-bezpo-rednio-na-kart {
+  padding: 0 10%;
+  &-title {
     color: var(--black, #000000);
     text-align: center;
     font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
@@ -58,7 +63,7 @@
     flex-shrink: 0;
     position: relative;
   }
-  .landing__minimalna-wysoko-zarobk-w-z-pakietem-pi-ciu-akcji-orange-polska-to-ju-od-10-000-z-miesi-cznie {
+  .landing__frame-1-subtitle {
     color: var(--for-h-4, #443e3e);
     text-align: center;
     font: var(--_1920-h-3, 400 24px "Inter", sans-serif);
@@ -76,16 +81,18 @@
   gap: 50px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 1520px;
+  // width: 1520px;
+  height: 514px;
   margin-bottom: 150px;
   .landing__video {
-    width: 866px;
-    height: 514px;
+    width: 65%;
+    max-width: 866px;
+    height: 100%
   }
   .landing__rectangle {
     border-radius: 10px;
-    width: 866px;
-    height: 514px;
+    width: 100%;
+    height: 100%;
   }
   .landing__frame-42 {
     display: flex;
@@ -145,16 +152,17 @@
     justify-content: center;
     flex: 1;
     position: relative;
-  }
-  .landing__pakiet-pi-ciu-akcji-orange-polska {
-    color: var(--black, #000000);
-    text-align: center;
-    font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
-    position: relative;
-    align-self: stretch;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    &-title{
+      color: var(--black, #000000);
+      text-align: center;
+      font: var(--_1920-1-semibold, 600 36px "Inter", sans-serif);
+      position: relative;
+      align-self: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .landing__icon {
     flex-shrink: 0;
@@ -222,6 +230,10 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    cursor: pointer;
+  }
+  .checked{
+    background: #ff7900;
   }
   .landing___2-000-z {
     color: var(--for-h-4, #443e3e);
@@ -315,7 +327,6 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  width: 1520px;
   margin-bottom: 150px;
   .landing___52-394 {
     color: #ff7900;
@@ -345,7 +356,7 @@
   gap: 100px;
   align-items: center;
   justify-content: flex-start;
-  width: 1920px;
+  // width: 1920px;
   margin-bottom: 150px;
   .landing__jaki-jest-nasz-sekret {
     color: var(--white, #ffffff);
@@ -380,21 +391,21 @@
     flex-shrink: 0;
     width: 100px;
     height: 100px;
-    position: static;
+    position: relative;
   }
   .landing__ellipse-4 {
     background: var(--orange, #ff7900);
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    position: absolute;
-    left: 172px;
-    top: 0px;
+    position: relative;
+    
   }
   .landing__icon2 {
     position: absolute;
-    left: 192px;
-    top: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow: visible;
   }
   .landing__op-acalno-zakupu-pakietu-pi-ciu-akcji-orange-polska-gwarantuje-rz-d {
@@ -420,12 +431,13 @@
     flex-shrink: 0;
     width: 100px;
     height: 100px;
-    position: static;
+    position: relative;
   }
   .landing__icon3 {
     position: absolute;
-    left: 192px;
-    top: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow: visible;
   }
   .landing__wsp-praca-ze-wszystkimi-bankami-w-polsce-zapewnia-szybkie-wyp-aty-bez-prowizji {
@@ -451,14 +463,15 @@
     flex-shrink: 0;
     width: 100px;
     height: 100px;
-    position: static;
+    position: relative;
   }
   .landing__icon-32 {
     width: 60px;
     height: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    left: 192px;
-    top: 20px;
     overflow: hidden;
   }
   .landing__group-21 {
@@ -907,4 +920,28 @@
     &:hover {
       transform: scale(1.1);
     }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .landing___2-screen {
+    height: 400px;
+  }
+  .landing__frame-12{
+    .landing__frame-12-title{
+      font: var(--_1920-1-semibold, 600 28px "Inter", sans-serif);
+    }
+  }
+  .landing-screens {
+    max-width: 1200px;
+  }
+  .landing___3-screen{
+    padding: 15px 0px;
+    .landing___52-394{
+      font: var(--_1920-fornumbers, 600 40px "Inter", sans-serif);
+    }
+    .landing__zwyk-ych-polak-w-ju-zarobi-o {
+      font: var(--_1920-1-regular, 400 30px "Inter", sans-serif);
+    }
+  }
 }
