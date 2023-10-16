@@ -925,7 +925,7 @@
 
 @media screen and (max-width: 1400px) {
   .landing___2-screen {
-    height: 400px;
+    height: 450px;
   }
   .landing__frame-12{
     .landing__frame-12-title{
@@ -942,6 +942,79 @@
     }
     .landing__zwyk-ych-polak-w-ju-zarobi-o {
       font: var(--_1920-1-regular, 400 30px "Inter", sans-serif);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing__header{
+    margin-bottom: 60px;
+    padding: 10px 20px;
+  }
+  .landing-screens{
+    width: 93%;
+  }
+  .landing___1-screen{
+    padding: 0 7%;
+    margin-bottom: 60px;
+    &-title{
+      font: var(--_1920-1-semibold, 600 22px "Inter", sans-serif)
+    }
+    .landing__frame-1{
+      padding: 0;
+    }
+    .landing__frame-1-subtitle{
+      font: var(--_1920-h-3, 400 18px "Inter", sans-serif);
+    }
+  }
+  .landing___2-screen{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0;
+    .landing__video{
+      width: 100%;
+      height: 190px;
+    }
+    .landing__frame-12{
+      width: 100%;
+      justify-content: start;
+      flex: 0;
+      margin-bottom: 25px;
+      &-title{
+        font: var(--_1920-1-semibold, 600 22px "Inter", sans-serif);
+      }
+    }
+    .landing__checkbox{
+      flex-direction: column;
+    }
+    .landing-10-000-z-zysku-miesi-cznie-span{
+      font: var(--_1920-h-2, 500 20px "Inter", sans-serif);
+    }
+    .landing-10-000-z-zysku-miesi-cznie-span2{
+      font: var(--_1920-h-2, 500 22px "Inter", sans-serif);
+    }
+    .landing___2-000-z{
+      font: var(--_1920-h-4, 400 18px "Inter", sans-serif);
+    }
+  }
+  .landing___3-screen{
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    .landing__zwyk-ych-polak-w-ju-zarobi-o {
+      text-align: center;
+      font: var(--_1920-1-regular, 400 22px "Inter", sans-serif);
+    }
+  }
+  .landing___4-screen{
+    width: 100%;
+    padding: 60px 20px;
+    .landing__frame{
+      flex-direction: column;
+      align-items: center
     }
   }
 }

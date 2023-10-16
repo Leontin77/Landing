@@ -19,10 +19,14 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
   const [inputChecked, setInputChecked] = useState(1);
   const [userQyuantity, setUserQyuantity] = useState(64985);
 
+ 
+  function addRandomToState() {
+    const randomValue = Math.random() > 0.5 ? 3 : 4;
+    setUserQyuantity(userQyuantity + randomValue)
+  }
+
   useEffect(() => {
-    setTimeout(() => {
-      setUserQyuantity(userQyuantity + 3);
-    }, 3000)
+    setTimeout(addRandomToState, 3000);
   }, [userQyuantity])
 
   useEffect(() => {
@@ -40,13 +44,11 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
       <div className="landing-screens">
         <div className="landing___1-screen">
           <div className="landing___1-screen-title">
-            Orange Polska otworzyła nową możliwość inwestowania i otrzymywania
-            części przychodów firmy bezpośrednio na kartę.{" "}
+            Olerex открыли новую возможность инвестировать и получать часть от дохода компании прямо на карту.
           </div>
           <div className="landing__frame-1">
             <div className="landing__frame-1-subtitle">
-              Minimalna wysokość zarobków z pakietem pięciu akcji Orange Polska
-              to już od 10 000 zł miesięcznie.{" "}
+            Минимальная сумма заработка с помощью пакета из трех акций Olerex составляет от 1 950 евро ежемесячно.
             </div>
           </div>
         </div>
@@ -59,7 +61,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
           </div>
           <div className="landing__frame-12">
             <div className="landing__frame-12-title">
-              Pakiet pięciu akcji Orange Polska{" "}
+            Пакет из трех акций Olerex
             </div>
             <svg
               width="120"
@@ -166,7 +168,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                       <div className="landing__rectangle-162"></div>
                     )}
                   </div>
-                  <div className="landing___2-000-z">1 000 zł </div>
+                  <div className="landing___2-000-z">250 Евро  </div>
                 </div>
               </div>
               <div className="landing___2">
@@ -195,7 +197,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                     <div className="landing__rectangle-162"></div>
                   )}
                 </div>
-                <div className="landing___2-000-z">2 000 zł </div>
+                <div className="landing___2-000-z">500 Евро  </div>
               </div>
               <div className="landing___3">
                 <div
@@ -224,17 +226,17 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                     <div className="landing__rectangle-162"></div>
                   )}
                 </div>
-                <div className="landing___3-000-z">3 000 zł </div>
+                <div className="landing___2-000-z">750 Евро  </div>
               </div>
             </div>
             <div className="landing___10-000-z-zysku-miesi-cznie">
               <span>
                 <span className="landing-10-000-z-zysku-miesi-cznie-span">
-                  10 000 zł
+                1950
                 </span>
                 <span className="landing-10-000-z-zysku-miesi-cznie-span2">
                   {" "}
-                  zysku miesięcznie
+                евро ежемесячной прибыли
                 </span>
               </span>{" "}
             </div>
@@ -248,13 +250,13 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
         <div className="landing___3-screen">
           <div className="landing___52-394">{userQyuantity}</div>
           <div className="landing__zwyk-ych-polak-w-ju-zarobi-o">
-            - zwykłych Polaków już zarobiło{" "}
+          - обычных жителей Прибалтики  уже заработали
           </div>
         </div>
       </div>
       <div className="landing___4-screen">
         <div className="landing__jaki-jest-nasz-sekret">
-          Jaki jest nasz sekret?{" "}
+        В чем наш секрет?
         </div>
         <div className="landing__frame">
           <div className="landing__frame-13">
@@ -283,8 +285,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
               </svg>
             </div>
             <div className="landing__op-acalno-zakupu-pakietu-pi-ciu-akcji-orange-polska-gwarantuje-rz-d">
-              Opłacalność zakupu pakietu pięciu akcji Orange Polska gwarantuje
-              rząd.{" "}
+            Выгодность покупки пакета из трех акций Olerex гарантированно правительством.
             </div>
           </div>
           <div className="landing__frame-2">
@@ -313,8 +314,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
               </svg>
             </div>
             <div className="landing__wsp-praca-ze-wszystkimi-bankami-w-polsce-zapewnia-szybkie-wyp-aty-bez-prowizji">
-              Współpraca ze wszystkimi bankami w Polsce zapewnia szybkie wypłaty
-              bez prowizji.{" "}
+            Сотрудничество со всеми банками Прибалтики обеспечивает быстрые выплаты без комиссии.
             </div>
           </div>
           <div className="landing__frame-3">
@@ -403,8 +403,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
               </div>
             </div>
             <div className="landing__szybki-wzrost-akcji-orange-polska-z-ka-dym-dniem-zwi-ksza-dochody-wszystkich-inwestor-w">
-              Szybki wzrost akcji Orange Polska z każdym dniem zwiększa dochody
-              wszystkich inwestorów.{" "}
+            Стремительный рост акций Olerex с каждым днем увеличивает доход всем инвесторам
             </div>
           </div>
         </div>
