@@ -19,10 +19,14 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
   const [inputChecked, setInputChecked] = useState(1);
   const [userQyuantity, setUserQyuantity] = useState(64985);
 
+ 
+  function addRandomToState() {
+    const randomValue = Math.random() > 0.5 ? 3 : 4;
+    setUserQyuantity(userQyuantity + randomValue)
+  }
+
   useEffect(() => {
-    setTimeout(() => {
-      setUserQyuantity(userQyuantity + 3);
-    }, 3000)
+    setTimeout(addRandomToState, 3000);
   }, [userQyuantity])
 
   return (
