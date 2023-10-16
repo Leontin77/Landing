@@ -229,7 +229,7 @@ export const Landing = ({ ...props }: ILandingProps): JSX.Element => {
                 </span>
               </span>{" "}
             </div>
-            <div className="landing__button hover">
+            <div className="landing__button hover" onClick={() => setOpenForm(true)}>
               <div className="landing__kup-teraz">Купить сейчас! </div>
             </div>
           </div>
