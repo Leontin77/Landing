@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "webpack serve --env port=3001",
-    "build": "react-scripts build",
+    "build": "webpack build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

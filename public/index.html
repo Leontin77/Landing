@@ -20,14 +20,13 @@
     function getParameterByName() {
         let url = window.location.href;
         
-        return url.split('id=')[1];
+        return url.split('id=')[1] || '';
       }
       
         var pixelId = getParameterByName();
         console.log('pixelId', pixelId);
         localStorage.setItem('Id', pixelId);
 
-        if (pixelId) {
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -38,7 +37,7 @@
           'https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', pixelId);
           
-        }
+        
     </script>
     <noscript>
       <img height="1" width="1" style="display:none"

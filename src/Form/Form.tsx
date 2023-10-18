@@ -6,7 +6,7 @@ import "./Form.scss"
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 import { isValidPhoneNumber  } from 'react-phone-number-input';
-import logo from '../images/logo.png'
+import HeaderLogo from '../images/logo.svg'
 import axios from 'axios';
 
 export interface IButtonProps {
@@ -19,7 +19,7 @@ declare global {
       fbq?: (eventType: string, eventName: string) => void,
     }
   }
-  
+
 interface FormData {
     name: string;
     lastName: string;
@@ -55,14 +55,14 @@ export const Form = ({isPopUp = false , closeForm = () => {}}: IButtonProps): JS
         console.log('#####', data)
         const message = `Новая заявка со страницы: ${window.location.href}\n\n` +
           "NEW FORM TEST Данные формы: \n" +
-          "IP: " + IPData.usersIP + ' ' + IPData.usersCountry + ' ' + IPData.usersCity + "\n" +
+          "IP: " + IPData?.usersIP + ' ' + IPData?.usersCountry + ' ' + IPData?.usersCity + "\n" +
           `Имя Фамилия: ${data.name + ' ' + data.lastName}\n` +
           `Email: ${data.email}\n` +
           `Телефон: ${data.phone}\n`
-    
+
         console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@', message);
         if (localStorage?.getItem('Id')) {
-            window.fbq('init', localStorage?.getItem('Id'));    
+            window.fbq('init', localStorage?.getItem('Id'));
             window.fbq('track', 'Lead');
         }
 
@@ -72,9 +72,9 @@ export const Form = ({isPopUp = false , closeForm = () => {}}: IButtonProps): JS
     // })
     //   .then((response: any) => {
     //     if (localStorage.getItem('Id')) {
-    //             window.fbq('init', localStorage?.getItem('Id'));    
+    //             window.fbq('init', localStorage?.getItem('Id'));
     //             window.fbq('track', 'Lead');
-            
+
     //       console.log('2222222222');
     //     //   window.location.href = window.location.href.replace(/[^/]*$/, `thankyou.html?id=${localStorage.getItem('Id')}`);
     //     } else {
@@ -99,8 +99,9 @@ export const Form = ({isPopUp = false , closeForm = () => {}}: IButtonProps): JS
                       <path d="M17 17L1 1M1 17L17 1L1 17Z" stroke="#443E3E"/>
                   </svg>
               </div>}
-              {step === 2 && <img src={logo} alt="" /> }
-             
+              {/* {step === 2 && <img src={logo} alt="" /> } */}
+              <HeaderLogo/>
+
               {step === 1 && <div className="landing__form-header">
                   Зарегистрируйся, чтобы начать зарабатывать!
               </div>}
@@ -168,7 +169,7 @@ export const Form = ({isPopUp = false , closeForm = () => {}}: IButtonProps): JS
             <PhoneInput
             defaultCountry={IPData?.countryCode || 'PL'}
               placeholder="Enter phone number"
-              value={IPData.phoneCode}
+              value={IPData?.phoneCode}
               onChange={onChange}
               className="landing__form-input"
             />
@@ -182,7 +183,7 @@ export const Form = ({isPopUp = false , closeForm = () => {}}: IButtonProps): JS
                       </div>
                   </button>
               </form>}
-             
+
           </div>
 
       </div>
